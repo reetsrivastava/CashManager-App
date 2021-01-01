@@ -1,0 +1,78 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #1e5631;
+  --secondary-color: #acdf87;
+  --tertiary-color: #76ba1b;
+  --optional-color: #4e8d7c;
+  --back-color: #f0f8ff;
+}
+
+body {
+  background-color: var(--back-color);
+  margin: 0;
+}
+
+.item {
+  display: inline-block;
+  width: 20%;
+  min-width: 150px;
+  height: fit-content;
+  background-color: var(--secondary-color);
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  background-color: #1e5631;
+  padding: 1rem;
+  border-radius: 25px;
+  font-size: 15px;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: var(--tertiary-color);
+}
+
+p {
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+input {
+  width: 60%;
+  font-size: 20px;
+  padding: 1rem;
+}
+
+.amtReturn {
+  border: 1px solid var(--primary-color);
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 1rem;
+  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+}
+
+footer {
+  width: 70%;
+  margin: 1rem auto;
+  color: var(--optional-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+hr {
+  width: 80%;
+  color: var(--tertiary-color);
+}
